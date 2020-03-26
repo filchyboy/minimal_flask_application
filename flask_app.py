@@ -10,5 +10,5 @@ app = Flask(__name__)
 @app.route("/")
 
 # attach a function to that route
-def root:
-    return("Hello world.")
+def root():
+    return("This is a minimally viable flask application. Git repo <a href='https://github.com/filchyboy/minimal_flask_application'>here</a>.")
